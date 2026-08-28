@@ -83,6 +83,12 @@ The JSON object should contain the raw claim columns used by the notebook. The c
 
 The repository contains `data/raw/FraudDataset.csv` because it is required for notebook execution. The local source folder did not include upstream provenance or a redistribution license. Verify publication rights before making this repository public; if redistribution is not permitted, keep the CSV local and provide an authorized download or placement instruction.
 
+## Project documents
+
+- [Model card](docs/MODEL_CARD.md) — intended use, training workflow, evaluation checkpoint, and limitations.
+- [Reproducibility notes](docs/REPRODUCIBILITY.md) — environment, artifact contract, and run-record fields.
+- [Dataset provenance](docs/DATASET_PROVENANCE.md) — publication-rights gate for the raw CSV.
+
 ## Technology Stack
 
 Python, TensorFlow, Keras, scikit-learn, imbalanced-learn, pandas, NumPy, Matplotlib, Seaborn, Joblib, and Jupyter Notebook.
