@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Ignore all notebooks except the final GitHub notebook
+*.ipynb
+!notebooks/Insurance_Fraud_Detection_ANN_Clean_DL_Engineer.ipynb
+
+# Generated model artifacts and experiment outputs
+artifacts/*
+!artifacts/README.md
+models/
+insurance_fraud_outputs/
+results/
+*.keras
+*.joblib
+*.h5
+
+# Draft / duplicate project files from local development
+Ann.ipynb
+ANNIntermediate29thMay*.ipynb
+Copy_of_DNNProject30thMay*.ipynb
+EDA.ipynb
+best_model*.keras
+fraud_detector_final.keras
+scaler.joblib
+
+# Reports generated for local submission
+*.pdf
+*.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
