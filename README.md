@@ -4,6 +4,10 @@
 
 A TensorFlow/Keras insurance-fraud decision-support workflow that uses leakage-aware preprocessing, training-only imbalance handling, threshold selection, and reloadable inference artifacts. The output is intended to support investigation, not automatically reject claims; dataset redistribution rights still require confirmation.
 
+> **Status:** Deep-learning decision-support workflow; dataset redistribution rights require confirmation.  
+> **Stack:** Python · TensorFlow/Keras · scikit-learn · imbalanced-learn  
+> **Proof:** Leakage-aware preprocessing, threshold selection, reloadable inference artifacts, and documented test metrics.
+
 
 ClaimShield is a deep learning workflow for detecting vehicle insurance claims that may require fraud investigation. It combines leakage-aware preprocessing, imbalance handling, a regularized Artificial Neural Network, validation-based threshold tuning, and reloadable inference artifacts.
 
